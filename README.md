@@ -45,7 +45,7 @@ button{
 
 <div class="box" id="gate">
   <h2>🔐 Masukkan Kode Rahasia</h2>
-  <input type="password" id="kode" placeholder="Kode rahasia">
+  <input type="pasword" id="kode" placeholder="Kode rahasia">
   <br>
   <button onclick="cek()">Buka 💖</button>
 </div>
@@ -57,7 +57,7 @@ button{
   <b id="hari"></b>
 </div>
 
-<audio id="musik" src="lagu.mp3" loop></audio>
+<audio id="mp.3" src="lagu.mp3" loop></audio>
 
 <script>
 const KODE = "17";
@@ -73,9 +73,9 @@ function cek(){
     document.getElementById("app").style.display = "block";
 
     const hariList = ["Minggu","Senin","Selasa","Rabu","Kamis","Jumat","Sabtu"];
-    const tgl = new Date(TGL_JADIAN);
+    const tgl = new Date(17 08 2025);
 
-    document.getElementById("hari").innerText =
+    document.getElementById("sabtu").innerText =
       hariList[tgl.getDay()] + ", 17 Agustus 2025";
 
     musik.volume = 0.6;
@@ -85,6 +85,5 @@ function cek(){
   }
 }
 </script>
-
 </body>
 </html>
